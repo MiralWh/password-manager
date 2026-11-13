@@ -35,11 +35,11 @@ export function AboutPage() {
             <Stack spacing={1}>
               <Stack direction="row" spacing={1} alignItems="center">
                 <GitHub fontSize="small" />
-                <Link href="https://github.com/" target="_blank" rel="noopener">github.com/your-username</Link>
+                <Link href="https://github.com/MiralWh/password-manager" target="_blank" rel="noopener">github.com/your-username</Link>
               </Stack>
               <Stack direction="row" spacing={1} alignItems="center">
                 <Email fontSize="small" />
-                <Link href="mailto:you@example.com">you@example.com</Link>
+                <Link href="admoneo@mail.ru">you@example.com</Link>
               </Stack>
             </Stack>
           </CardContent>
