@@ -1,0 +1,27 @@
+server:
+  host: "0.0.0.0"
+  port: 8080
+  jwt_secret: "CHANGE-ME-IN-PRODUCTION-super-secret-jwt-key"
+  jwt_ttl_hours: 1
+  encryption_key: "0123456789abcdef0123456789abcdef"
+  read_timeout_seconds: 15
+  write_timeout_seconds: 15
+
+database:
+  host: "postgres"
+  port: 5432
+  user: "pwm"
+  password: "pwm_pass"
+  name: "pwm_db"
+  sslmode: "disable"
+  max_conns: 10
+  connect_retries: 30
+  connect_retry_delay_seconds: 2
+
+docker:
+  enabled: false
+
+cors:
+  allowed_origins:
+    - "http://localhost:3000"
+    - "http://localhost:5173"
